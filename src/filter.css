@@ -1,0 +1,27 @@
+.filters {
+  background-color: #01404a;
+  color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  margin: 10px;
+  height: 86vh;
+  position: fixed;
+  left: -10px;
+  top: 75px;
+  z-index: 2;
+}
+
+.filters > span {
+  padding-bottom: 20px;
+}
+
+.title {
+  font-size: 30px;
+}
+@media only screen and (max-width: 600px) {
+  .filters {
+    width: 40%;
+  }
+}

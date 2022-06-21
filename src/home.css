@@ -1,0 +1,43 @@
+.home {
+  display: flex;
+}
+
+.productContainer {
+  width: 78%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  justify-content: space-between;
+  margin-left: 20%;
+}
+.productContainerCart {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 20px;
+  justify-content: space-between;
+  width: 78%;
+}
+.menuBar {
+  background-color: #01404a;
+  color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  margin: 10px;
+  height: 86vh;
+  position: fixed;
+  right: -10px;
+  top: 75px;
+  z-index: 2;
+}
+@media only screen and (max-width: 600px) {
+  .productContainer {
+    width: 58%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: space-between;
+    margin-left: 40%;
+  }
+}

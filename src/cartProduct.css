@@ -1,0 +1,8 @@
+.qtyContainer {
+  display: flex;
+  gap: 20px;
+}
+.qty {
+  width: 30%;
+  text-align: center;
+}
